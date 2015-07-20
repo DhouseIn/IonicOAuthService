@@ -1,0 +1,10 @@
+/node_modules
+/dist
+/.tmp
+/.sass-cache
+/bower_components
+/coverage
+.bowerrc
+.gitattributes
+.jshintrc
+.yo-rc.json

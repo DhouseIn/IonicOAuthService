@@ -1,0 +1,46 @@
+{
+	"name": "IonicOAuthService",
+	"version": "0.0.1",
+	"main": "./wwww/IonicOAuthService.js",
+	"homepage": "https://github.com/DhouseIn/IonicOAuthService",
+	"authors": [
+		"Marcel Silva <silva.marcel@gmail.com> <marcel@dhouse.in>"
+	],
+	"description": "OAuth Service with Firebase and ng-cordova-oauth to do Social Login in Ionic",
+	"moduleType": [
+		"node"
+	],
+	"dependencies": {
+		"jsSHA": "1.6.0",
+		"ng-cordova-oauth": "~0.1.3",
+		"angularfire": "~1.1.2",
+		"firebase-token-generator": "~2.0.0"
+	},
+	"devDependencies": {
+		"angular-mocks": "^1.3.17",
+		"angular-scenario": "~1.3.17"
+	},
+	"resolutions": {
+		"angular": ">= 1.3.17"
+	},
+	"keywords": [
+		"ionic",
+		"oauth",
+		"ionic",
+		"framework",
+		"ng-cordova-oauth",
+		"angularjs",
+		"linkedin",
+		"facebook",
+		"google+",
+		"twitter"
+	],
+	"license": "MIT",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	]
+}
