@@ -1,3 +1,5 @@
+[![PayPal](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NR8YJSJX353AC)
+
 # IonicOAuthService
 
 OAuth Service with Firebase and ng-cordova-oauth to do Social Login in Ionic
