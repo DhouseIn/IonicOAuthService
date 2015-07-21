@@ -1,10 +1,11 @@
 {
 	"name": "IonicOAuthService",
 	"version": "0.0.1",
-	"main": "./wwww/IonicOAuthService.js",
+	"main": "./dist/ionicoauthservice.js",
 	"homepage": "https://github.com/DhouseIn/IonicOAuthService",
 	"authors": [
-		"Marcel Silva <silva.marcel@gmail.com> <marcel@dhouse.in>"
+		{"name": "Marcel Silva", "email": "silva.marcel@gmail.com", "homepage": "https://hackhands.com/silvamarcel/"},
+		{"name": "Marcel Silva", "email": "marcel@dhouse.in", "homepage": "http://dhouse.in"}
 	],
 	"description": "OAuth Service with Firebase and ng-cordova-oauth to do Social Login in Ionic",
 	"moduleType": [
