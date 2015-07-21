@@ -1,5 +1,3 @@
-'use strict';
-
 describe("OAuthServiceTest", function() {
 
 	var scope;
@@ -21,6 +19,9 @@ describe("OAuthServiceTest", function() {
 	var loginErrorCallback;
 	var provider;
 	var invalidProvider;
+
+	beforeEach(module('ionicOAuthService', function () {
+	}));
 
 	beforeEach(inject(function($rootScope, $q, $cordovaOauth, FirebaseService, OAuthService) {
 		scope = $rootScope.$new();

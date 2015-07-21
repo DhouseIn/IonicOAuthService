@@ -4,12 +4,8 @@ describe("FirebaseServiceTest", function() {
 	var fb;
 	var host;
 
-	beforeEach(module('simplecards', function ($translateProvider) {
-		$translateProvider.translations('pt_BR', {});
-		$translateProvider.preferredLanguage('pt_BR');
+	beforeEach(module('ionicOAuthService', function () {
 	}));
-
-	beforeEach(module('templates'));
 
 	beforeEach(inject(function($rootScope, FirebaseService, FIREBASE_URL) {
 		scope = $rootScope.$new();

@@ -1,8 +1,6 @@
-'use strict';
-
 angular.module('ionicOAuthService.config', [])
 
-.constant('FIREBASE_URL', 'https://<YOUR_FIREBASE_DOMAIN>.firebaseio.com')
+.constant('FIREBASE_URL', 'https://<your_firebase_domain>.firebaseio.com')
 
 .constant('SOCIAL', {
 	INVALID_PROVIDER: 'INVALID_PROVIDER',

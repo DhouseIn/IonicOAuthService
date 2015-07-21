@@ -1,5 +1,3 @@
-'use strict';
-
 angular.module("ionicOAuthService.firebase", ['ionicOAuthService.config', 'firebase'])
 
 .service('FirebaseService', ['$firebaseAuth', 'FIREBASE_URL', function($firebaseAuth, FIREBASE_URL) {

@@ -1,5 +1,3 @@
-'use strict';
-
 angular.module("ionicOAuthService.ionicOAuth", ['ngCordovaOauth', 'ionicOAuthService.config', 'ionicOAuthService.firebase'])
 
 .service('OAuthService', ['$cordovaOauth', 'FirebaseService', 'SOCIAL', function ($cordovaOauth, FirebaseService, SOCIAL) {
