@@ -3,11 +3,21 @@ module.exports = function (grunt) {
 	// Define the configuration for all the tasks
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
+		copy: {
+			main: {
+				files: [{
+					expand: true,
+					cwd: 'app/',
+					src: ['config.js'],
+					dest: 'dist/'
+				}]
+			}
+		},
 		concat: {
 			options: {
 			},
 			dist: {
-				src: ['app/*.js'],
+				src: ['app/firebase.js', 'app/ionicOAuth.js', '!app/config.js', 'app/plugin.js'],
 				dest: 'dist/<%= pkg.name %>.js',
 			},
 		},
@@ -16,7 +26,7 @@ module.exports = function (grunt) {
 				banner: '// <%= pkg.name %> - v<%= pkg.version %> (<%= grunt.template.today("yyyy-mm-dd") %>)\n' + '// http://www.dhouse.in\n'
 			},
 			build: {
-				src: ['app/*.js'],
+				src: ['app/firebase.js', 'app/ionicOAuth.js', '!app/config.js', 'app/plugin.js'],
 				dest: 'dist/<%= pkg.name %>.min.js'
 			}
 		},
@@ -38,8 +48,9 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-contrib-jshint');
 	grunt.loadNpmTasks('grunt-contrib-concat');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
+	grunt.loadNpmTasks('grunt-contrib-copy');
 	grunt.loadNpmTasks('grunt-karma');
 
 	grunt.registerTask('test', ['clean', 'jshint', 'karma:unit']);
-	grunt.registerTask('default', ['clean', 'jshint', 'concat', 'uglify', 'karma:unit']);
+	grunt.registerTask('default', ['clean', 'jshint', 'concat', 'uglify', 'copy', 'karma:unit']);
 };
