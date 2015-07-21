@@ -1,3 +1,4 @@
+[![Codeship Status](https://codeship.com/projects/26ad6ca0-1146-0133-7116-622995d16682/status?branch=master)]
 [![PayPal](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NR8YJSJX353AC)
 
 # IonicOAuthService
@@ -64,3 +65,6 @@ At this point, ionicOAuthService is installed into your project and is ready for
 
 This library will NOT work with a web browser, ionic serve, or ionic view.  It must be used via installing to a device or simulator.
 
+### Example of use:
+
+	
