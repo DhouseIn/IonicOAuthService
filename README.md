@@ -39,8 +39,8 @@ The JavaScript library must then be added to your **index.html** file:
 Copy the following file from this repository to your Ionic project:
 
     $ cd ionicoauthservice
-    $ cp ionicoauthservice.js /path/to/project/www/js/config.js
-    $ cp ionicoauthservice.js /path/to/project/www/js/ionicoauthservice.min.js
+    $ cp config.js /path/to/project/www/js/config.js
+    $ cp ionicoauthservice.min.js /path/to/project/www/js/ionicoauthservice.min.js
 
 The JavaScript library must then be added to your **index.html** file:
 
