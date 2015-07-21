@@ -32,8 +32,8 @@ This action will set the dependency and add it to the `bower.json` file.
 
 The JavaScript library must then be added to your **index.html** file:
 
-    <script src="../ionicoauthservice/dist/config.js"></script>
-    <script src="../ionicoauthservice/dist/ionicoauthservice.min.js"></script>
+    <script src="../ionic-oauth-service/dist/config.js"></script>
+    <script src="../ionic-oauth-service/dist/ionicoauthservice.min.js"></script>
 
 ### Outdated way:
 
