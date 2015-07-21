@@ -14,7 +14,7 @@ module.exports = function(config) {
 
 		preprocessors: {
 			// Update this if you change the yeoman config path
-			'app/**/*.js': ['coverage']
+			'src/**/*.js': ['coverage']
 		},
 
 		coverageReporter: {
@@ -45,7 +45,7 @@ module.exports = function(config) {
 			'bower_components/angular-mocks/angular-mocks.js',
 			'bower_components/angular-scenario/angular-scenario.js',
 			// endbower
-			'app/**/*.js',
+			'src/**/*.js',
 			//'test/mock/**/*.js',
 			'test/spec/**/*.js'
 		],

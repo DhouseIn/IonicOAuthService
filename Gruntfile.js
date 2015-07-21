@@ -7,7 +7,7 @@ module.exports = function (grunt) {
 			main: {
 				files: [{
 					expand: true,
-					cwd: 'app/',
+					cwd: 'src/',
 					src: ['config.js'],
 					dest: 'dist/'
 				}]
@@ -17,7 +17,7 @@ module.exports = function (grunt) {
 			options: {
 			},
 			dist: {
-				src: ['app/firebase.js', 'app/ionicOAuth.js', '!app/config.js', 'app/plugin.js'],
+				src: ['src/firebase.js', 'src/ionicOAuth.js', '!src/config.js', 'src/plugin.js'],
 				dest: 'dist/<%= pkg.name %>.js',
 			},
 		},
@@ -26,12 +26,12 @@ module.exports = function (grunt) {
 				banner: '// <%= pkg.name %> - v<%= pkg.version %> (<%= grunt.template.today("yyyy-mm-dd") %>)\n' + '// http://www.dhouse.in\n'
 			},
 			build: {
-				src: ['app/firebase.js', 'app/ionicOAuth.js', '!app/config.js', 'app/plugin.js'],
+				src: ['src/firebase.js', 'src/ionicOAuth.js', '!src/config.js', 'src/plugin.js'],
 				dest: 'dist/<%= pkg.name %>.min.js'
 			}
 		},
 		jshint: {
-			all: ['app/*.js']
+			all: ['src/*.js']
 		},
 		clean: {
 			js: ['dist/*.min.js']
