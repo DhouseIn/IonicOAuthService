@@ -55,16 +55,30 @@ Once added to your index.html file, you must inject the library into your **app.
 
     angular.module('starter', ['ionic', 'ionicOAuthService'])
 
-### Configuring your Firebase and Socials Keys:
+## Configuring your Firebase and Socials Keys:
 
 Now you need to update the config.js file to use your socials signIn. You must need put the Firebase URL and should set just the socials that you want to do SignIn.
 
 At this point, ionicOAuthService is installed into your project and is ready for use.
 
-### Important observation:
+## Important observation:
 
 This library will NOT work with a web browser, ionic serve, or ionic view.  It must be used via installing to a device or simulator.
 
-### Example of use:
+## Example of use:
 
-	https://github.com/DhouseIn/DemoIonicOAuthService
+* [Demo Example](https://github.com/DhouseIn/DemoIonicOAuthService)
+
+## Have a question or found a bug (compliments work too)?
+
+Tweet me on Twitter - [@silvamarcel](https://www.twitter.com/silvamarcel)
+
+## Resources
+
+Ionic Framework - [http://www.ionicframework.com](http://www.ionicframework.com)
+
+AngularJS - [http://www.angularjs.org](http://www.angularjs.org)
+
+Apache Cordova - [http://cordova.apache.org](http://cordova.apache.org)
+
+Ionic Brazil - [http://ionicbrazil.com](http://ionicbrazil.com)
