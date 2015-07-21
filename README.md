@@ -59,3 +59,8 @@ Once added to your index.html file, you must inject the library into your **app.
 Now you need to update the config.js file to use your socials signIn. You must need put the Firebase URL and should set just the socials that you want to do SignIn.
 
 At this point, ionicOAuthService is installed into your project and is ready for use.
+
+### Important observation:
+
+This library will NOT work with a web browser, ionic serve, or ionic view.  It must be used via installing to a device or simulator.
+
