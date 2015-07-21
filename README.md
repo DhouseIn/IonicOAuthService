@@ -67,4 +67,4 @@ This library will NOT work with a web browser, ionic serve, or ionic view.  It m
 
 ### Example of use:
 
-	
+	https://github.com/DhouseIn/DemoIonicOAuthService
